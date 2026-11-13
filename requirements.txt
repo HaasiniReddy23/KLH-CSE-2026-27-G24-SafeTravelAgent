@@ -1,0 +1,6 @@
+# Starter dependencies; pin tested versions before the first review.
+fastapi
+uvicorn[standard]
+pydantic
+python-dotenv
+pytest

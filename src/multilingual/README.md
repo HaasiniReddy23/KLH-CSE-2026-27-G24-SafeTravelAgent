@@ -1,0 +1,1 @@
+# Multilingual module\n\nImplement language identification, normalization, and multilingual query handling here.\n

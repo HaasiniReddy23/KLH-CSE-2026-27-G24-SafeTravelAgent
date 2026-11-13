@@ -1,0 +1,1 @@
+# Evaluation module\n\nImplement LLM-as-a-Judge rubrics, regression tests, and evaluation metrics here. Judge outputs must not authorize tool execution.\n

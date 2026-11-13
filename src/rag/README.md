@@ -1,0 +1,1 @@
+# RAG module\n\nImplement document ingestion, chunking, retrieval, source tracking, and grounded response construction here.\n

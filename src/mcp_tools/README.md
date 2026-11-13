@@ -1,0 +1,1 @@
+# MCP tools module\n\nImplement the MCP server and explicitly allow-listed mock travel tools here. Enforce validation and authorization outside the LLM.\n
