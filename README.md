@@ -125,25 +125,6 @@ pytest
 **Phase:** Initial repository setup / project planning  
 **Status:** Starter structure created; implementation and evaluation are pending.
 
-Update this section at each review with completed features, known limitations, and the next milestone.
-
-## Security and data handling
-
-- Treat retrieved documents and user-provided content as untrusted data.
-- Never allow retrieved text to directly authorize or execute a tool.
-- Enforce tool permissions and argument validation in code, outside the LLM.
-- Require explicit user confirmation for booking, modification, cancellation, or other consequential operations.
-- Use mock or sandbox services during development.
-- Keep credentials in environment variables or a secret manager; do not commit them.
-- Include only public, licensed, or appropriately authorized documents in `data/`.
-
-## Contribution workflow
-
-- Each member must contribute using their own GitHub account.
-- Make at least one meaningful commit per week.
-- Use descriptive commit messages.
-- Tag review milestones, for example:
-
 ```bash
 git tag review-1
 git push origin review-1
