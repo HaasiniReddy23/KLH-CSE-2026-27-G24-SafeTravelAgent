@@ -1,0 +1,9 @@
+MOCK DATA - fictional hotel for a student project.
+
+Hotel Sunrise Goa - Cancellation and Booking Policy
+
+Free cancellation is available until 48 hours before the check-in time. If you cancel within 48 hours of check-in, one night's room charge is deducted from your refund. If you do not arrive and have not cancelled, the booking is treated as a no-show and no refund is given.
+
+Check-in time is 2:00 PM and check-out time is 11:00 AM. Early check-in depends on availability and may cost extra. Children under 6 stay free when using existing bedding.
+
+Room rates start at Rs. 2,800 per night for a Standard Room and Rs. 4,200 per night for a Sea View Room. Rates include breakfast for two guests. Taxes are charged separately.
