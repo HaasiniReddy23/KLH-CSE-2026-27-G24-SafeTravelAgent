@@ -14,7 +14,7 @@ DEFAULT_K = 3
 # Chosen from our first 9 test queries: off-topic questions scored <= 0.77 and
 # answerable ones >= 0.81. A tiny sample, so this is a rough first filter.
 # We will re-tune it on the golden question set.
-DEFAULT_MIN_SCORE = 0.79
+DEFAULT_MIN_SCORE = 0.77
 
 NO_ANSWER_TEXT = "I couldn't find enough information in my travel documents to answer that."
 RETRY_REMINDER = (
