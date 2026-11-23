@@ -1,6 +1,7 @@
-# Starter dependencies; pin tested versions before the first review.
 fastapi
 uvicorn[standard]
-pydantic
+pydantic>=2
 python-dotenv
+google-genai
 pytest
+httpx
