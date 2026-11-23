@@ -1,0 +1,9 @@
+MOCK DATA - fictional platform terms for a student project.
+
+TravelSafe Booking Terms and Refund Rules
+
+All bookings made through this assistant are test bookings and no real payment is taken. A booking is confirmed only after the user reviews the details and gives explicit confirmation.
+
+Refunds for approved cancellations are returned to the original payment method within 5 to 7 working days. The hotel's own cancellation policy decides how much is refunded. If a hotel policy and these terms differ, the hotel policy applies.
+
+Users can cancel only their own bookings. A booking can be changed only before the check-in date. Personal information is used only to manage the booking and is not shared with third parties.

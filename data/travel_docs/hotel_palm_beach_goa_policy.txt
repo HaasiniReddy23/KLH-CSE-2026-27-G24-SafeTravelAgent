@@ -1,0 +1,9 @@
+MOCK DATA - fictional hotel for a student project.
+
+Hotel Palm Beach Goa - Cancellation and Booking Policy
+
+Cancellations made at least 7 days before check-in receive a full refund. Cancellations made between 7 days and 24 hours before check-in receive a 50 percent refund. Cancellations within 24 hours of check-in are not refundable.
+
+Check-in time is 12:00 PM and check-out time is 10:00 AM. Pets are not allowed. The hotel has a swimming pool open from 7:00 AM to 8:00 PM.
+
+Room rates start at Rs. 3,500 per night for a Deluxe Room. Breakfast is Rs. 400 per person extra.
