@@ -1,0 +1,475 @@
+[
+  {
+    "id": "g01",
+    "language": "en",
+    "category": "answerable",
+    "difficulty": "easy",
+    "question": "What is the cancellation policy for Hotel Sunrise Goa?",
+    "expected_sources": [
+      "hotel_sunrise_goa_policy.txt"
+    ],
+    "expected_facts": [
+      "48 hours before check-in"
+    ],
+    "note": ""
+  },
+  {
+    "id": "g02",
+    "language": "en",
+    "category": "answerable",
+    "difficulty": "medium",
+    "question": "How much refund do I get at Hotel Palm Beach Goa if I cancel 3 days before check-in?",
+    "expected_sources": [
+      "hotel_palm_beach_goa_policy.txt"
+    ],
+    "expected_facts": [
+      "50 percent"
+    ],
+    "note": ""
+  },
+  {
+    "id": "g03",
+    "language": "en",
+    "category": "answerable",
+    "difficulty": "easy",
+    "question": "What time is check-in at Hotel Sunrise Goa?",
+    "expected_sources": [
+      "hotel_sunrise_goa_policy.txt"
+    ],
+    "expected_facts": [
+      "2:00 PM"
+    ],
+    "note": ""
+  },
+  {
+    "id": "g04",
+    "language": "en",
+    "category": "answerable",
+    "difficulty": "easy",
+    "question": "Are pets allowed at Hotel Palm Beach Goa?",
+    "expected_sources": [
+      "hotel_palm_beach_goa_policy.txt"
+    ],
+    "expected_facts": [
+      "not allowed"
+    ],
+    "note": ""
+  },
+  {
+    "id": "g05",
+    "language": "en",
+    "category": "answerable",
+    "difficulty": "easy",
+    "question": "How much does breakfast cost at Hotel Palm Beach Goa?",
+    "expected_sources": [
+      "hotel_palm_beach_goa_policy.txt"
+    ],
+    "expected_facts": [
+      "Rs. 400 per person"
+    ],
+    "note": ""
+  },
+  {
+    "id": "g06",
+    "language": "en",
+    "category": "answerable",
+    "difficulty": "medium",
+    "question": "What is the flight cancellation fee if I cancel within 24 hours of departure?",
+    "expected_sources": [
+      "flight_cancellation_policy.txt"
+    ],
+    "expected_facts": [
+      "Rs. 1,500 per passenger"
+    ],
+    "note": ""
+  },
+  {
+    "id": "g07",
+    "language": "en",
+    "category": "answerable",
+    "difficulty": "easy",
+    "question": "How much checked baggage is allowed on a domestic economy fare?",
+    "expected_sources": [
+      "flight_cancellation_policy.txt"
+    ],
+    "expected_facts": [
+      "15 kg"
+    ],
+    "note": ""
+  },
+  {
+    "id": "g08",
+    "language": "en",
+    "category": "answerable",
+    "difficulty": "easy",
+    "question": "When is the best time to visit Goa?",
+    "expected_sources": [
+      "goa_destination_guide.txt"
+    ],
+    "expected_facts": [
+      "November to February"
+    ],
+    "note": ""
+  },
+  {
+    "id": "g09",
+    "language": "en",
+    "category": "answerable",
+    "difficulty": "medium",
+    "question": "Which beaches in South Goa are good for families?",
+    "expected_sources": [
+      "goa_destination_guide.txt"
+    ],
+    "expected_facts": [
+      "Palolem",
+      "Colva"
+    ],
+    "note": ""
+  },
+  {
+    "id": "g10",
+    "language": "en",
+    "category": "answerable",
+    "difficulty": "medium",
+    "question": "If a hotel policy and the platform terms differ, which one applies?",
+    "expected_sources": [
+      "booking_terms_and_refunds.txt"
+    ],
+    "expected_facts": [
+      "hotel policy applies"
+    ],
+    "note": ""
+  },
+  {
+    "id": "g11",
+    "language": "en",
+    "category": "answerable",
+    "difficulty": "medium",
+    "question": "How many working days does it take to get a refund for an approved cancellation of a booking?",
+    "expected_sources": [
+      "booking_terms_and_refunds.txt"
+    ],
+    "expected_facts": [
+      "5 to 7 working days"
+    ],
+    "note": ""
+  },
+  {
+    "id": "g12",
+    "language": "en",
+    "category": "answerable",
+    "difficulty": "medium",
+    "question": "Can I cancel a booking that belongs to another person?",
+    "expected_sources": [
+      "booking_terms_and_refunds.txt"
+    ],
+    "expected_facts": [
+      "only their own bookings"
+    ],
+    "note": ""
+  },
+  {
+    "id": "g13",
+    "language": "en",
+    "category": "answerable",
+    "difficulty": "easy",
+    "question": "What is the price of a Sea View Room at Hotel Sunrise Goa?",
+    "expected_sources": [
+      "hotel_sunrise_goa_policy.txt"
+    ],
+    "expected_facts": [
+      "Rs. 4,200"
+    ],
+    "note": "answer sits in the second chunk of the document"
+  },
+  {
+    "id": "g14",
+    "language": "en",
+    "category": "answerable",
+    "difficulty": "medium",
+    "question": "What happens if I miss my flight without cancelling?",
+    "expected_sources": [
+      "flight_cancellation_policy.txt"
+    ],
+    "expected_facts": [
+      "no refund",
+      "airport taxes"
+    ],
+    "note": ""
+  },
+  {
+    "id": "g15",
+    "language": "en",
+    "category": "answerable",
+    "difficulty": "medium",
+    "question": "Is breakfast included in the room rate at Hotel Sunrise Goa?",
+    "expected_sources": [
+      "hotel_sunrise_goa_policy.txt"
+    ],
+    "expected_facts": [
+      "breakfast for two"
+    ],
+    "note": "answer sits in the second chunk of the document"
+  },
+  {
+    "id": "g16",
+    "language": "hi",
+    "category": "answerable",
+    "difficulty": "easy",
+    "question": "होटल सनराइज गोवा की रद्द करने की नीति क्या है?",
+    "expected_sources": [
+      "hotel_sunrise_goa_policy.txt"
+    ],
+    "expected_facts": [
+      "48 hours before check-in"
+    ],
+    "note": ""
+  },
+  {
+    "id": "g17",
+    "language": "hi",
+    "category": "answerable",
+    "difficulty": "easy",
+    "question": "गोवा घूमने का सबसे अच्छा समय कौन सा है?",
+    "expected_sources": [
+      "goa_destination_guide.txt"
+    ],
+    "expected_facts": [
+      "November to February"
+    ],
+    "note": ""
+  },
+  {
+    "id": "g18",
+    "language": "hi",
+    "category": "answerable",
+    "difficulty": "medium",
+    "question": "फ्लाइट रद्द करने पर कितना शुल्क लगता है?",
+    "expected_sources": [
+      "flight_cancellation_policy.txt"
+    ],
+    "expected_facts": [
+      "Rs. 500",
+      "Rs. 1,500"
+    ],
+    "note": ""
+  },
+  {
+    "id": "g19",
+    "language": "hi",
+    "category": "answerable",
+    "difficulty": "easy",
+    "question": "क्या होटल पाम बीच गोवा में पालतू जानवरों की अनुमति है?",
+    "expected_sources": [
+      "hotel_palm_beach_goa_policy.txt"
+    ],
+    "expected_facts": [
+      "not allowed"
+    ],
+    "note": ""
+  },
+  {
+    "id": "g20",
+    "language": "hi",
+    "category": "answerable",
+    "difficulty": "medium",
+    "question": "क्या मैं किसी और की बुकिंग रद्द कर सकता हूँ?",
+    "expected_sources": [
+      "booking_terms_and_refunds.txt"
+    ],
+    "expected_facts": [
+      "only their own bookings"
+    ],
+    "note": ""
+  },
+  {
+    "id": "g21",
+    "language": "hi",
+    "category": "answerable",
+    "difficulty": "easy",
+    "question": "होटल सनराइज गोवा में चेक-इन का समय क्या है?",
+    "expected_sources": [
+      "hotel_sunrise_goa_policy.txt"
+    ],
+    "expected_facts": [
+      "2:00 PM"
+    ],
+    "note": ""
+  },
+  {
+    "id": "g22",
+    "language": "te",
+    "category": "answerable",
+    "difficulty": "easy",
+    "question": "హోటల్ సన్రైజ్ గోవా రద్దు విధానం ఏమిటి?",
+    "expected_sources": [
+      "hotel_sunrise_goa_policy.txt"
+    ],
+    "expected_facts": [
+      "48 hours before check-in"
+    ],
+    "note": ""
+  },
+  {
+    "id": "g23",
+    "language": "te",
+    "category": "answerable",
+    "difficulty": "easy",
+    "question": "గోవా సందర్శించడానికి ఉత్తమ సమయం ఏది?",
+    "expected_sources": [
+      "goa_destination_guide.txt"
+    ],
+    "expected_facts": [
+      "November to February"
+    ],
+    "note": ""
+  },
+  {
+    "id": "g24",
+    "language": "te",
+    "category": "answerable",
+    "difficulty": "medium",
+    "question": "విమాన టికెట్ రద్దు చేస్తే ఎంత ఛార్జీ వసూలు చేస్తారు?",
+    "expected_sources": [
+      "flight_cancellation_policy.txt"
+    ],
+    "expected_facts": [
+      "Rs. 500",
+      "Rs. 1,500"
+    ],
+    "note": ""
+  },
+  {
+    "id": "g25",
+    "language": "te",
+    "category": "answerable",
+    "difficulty": "easy",
+    "question": "హోటల్ పామ్ బీచ్ గోవాలో పెంపుడు జంతువులను అనుమతిస్తారా?",
+    "expected_sources": [
+      "hotel_palm_beach_goa_policy.txt"
+    ],
+    "expected_facts": [
+      "not allowed"
+    ],
+    "note": ""
+  },
+  {
+    "id": "g26",
+    "language": "te",
+    "category": "answerable",
+    "difficulty": "medium",
+    "question": "దక్షిణ గోవాలో కుటుంబాలకు తగిన బీచ్ ఏది?",
+    "expected_sources": [
+      "goa_destination_guide.txt"
+    ],
+    "expected_facts": [
+      "Palolem",
+      "Colva"
+    ],
+    "note": ""
+  },
+  {
+    "id": "g27",
+    "language": "te",
+    "category": "answerable",
+    "difficulty": "medium",
+    "question": "ఇతరుల బుకింగ్ రద్దు చేయడానికి నాకు అనుమతి ఉందా?",
+    "expected_sources": [
+      "booking_terms_and_refunds.txt"
+    ],
+    "expected_facts": [
+      "only their own bookings"
+    ],
+    "note": ""
+  },
+  {
+    "id": "g28",
+    "language": "en",
+    "category": "unanswerable",
+    "difficulty": "easy",
+    "question": "What is the capital of France?",
+    "expected_sources": [],
+    "expected_facts": [],
+    "note": "off-topic"
+  },
+  {
+    "id": "g29",
+    "language": "en",
+    "category": "unanswerable",
+    "difficulty": "easy",
+    "question": "How do I bake a chocolate cake?",
+    "expected_sources": [],
+    "expected_facts": [],
+    "note": "off-topic"
+  },
+  {
+    "id": "g30",
+    "language": "en",
+    "category": "unanswerable",
+    "difficulty": "hard",
+    "question": "What is the cancellation policy for Hotel Taj Paris?",
+    "expected_sources": [],
+    "expected_facts": [],
+    "note": "sounds on-topic but the hotel is not in our documents"
+  },
+  {
+    "id": "g31",
+    "language": "en",
+    "category": "unanswerable",
+    "difficulty": "hard",
+    "question": "Does Hotel Sunrise Goa have a swimming pool?",
+    "expected_sources": [],
+    "expected_facts": [],
+    "note": "only Palm Beach mentions a pool"
+  },
+  {
+    "id": "g32",
+    "language": "en",
+    "category": "unanswerable",
+    "difficulty": "hard",
+    "question": "What is the cancellation fee for SkyIndia international flights?",
+    "expected_sources": [],
+    "expected_facts": [],
+    "note": "documents only give domestic fees"
+  },
+  {
+    "id": "g33",
+    "language": "en",
+    "category": "unanswerable",
+    "difficulty": "hard",
+    "question": "What is the best time to visit Manali?",
+    "expected_sources": [],
+    "expected_facts": [],
+    "note": "travel question about a place we have no document for"
+  },
+  {
+    "id": "g34",
+    "language": "hi",
+    "category": "unanswerable",
+    "difficulty": "easy",
+    "question": "फ्रांस की राजधानी क्या है?",
+    "expected_sources": [],
+    "expected_facts": [],
+    "note": "off-topic"
+  },
+  {
+    "id": "g35",
+    "language": "te",
+    "category": "unanswerable",
+    "difficulty": "easy",
+    "question": "చాక్లెట్ కేక్ ఎలా తయారు చేయాలి?",
+    "expected_sources": [],
+    "expected_facts": [],
+    "note": "off-topic"
+  },
+  {
+    "id": "g36",
+    "language": "te",
+    "category": "unanswerable",
+    "difficulty": "hard",
+    "question": "హోటల్ తాజ్ పారిస్ రద్దు విధానం ఏమిటి?",
+    "expected_sources": [],
+    "expected_facts": [],
+    "note": "sounds on-topic but the hotel is not in our documents"
+  }
+]

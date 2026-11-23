@@ -1,0 +1,842 @@
+{
+  "summary": {
+    "all": {
+      "questions": 27,
+      "hit_at_1": 0.963,
+      "hit_at_3": 1.0,
+      "mrr": 0.981
+    },
+    "en": {
+      "questions": 15,
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "mrr": 1.0
+    },
+    "hi": {
+      "questions": 6,
+      "hit_at_1": 0.833,
+      "hit_at_3": 1.0,
+      "mrr": 0.917
+    },
+    "te": {
+      "questions": 6,
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "mrr": 1.0
+    }
+  },
+  "thresholds": [
+    {
+      "threshold": 0.7,
+      "answerable_wrongly_refused": 0,
+      "answerable_total": 27,
+      "unanswerable_wrongly_passed": 8,
+      "unanswerable_total": 9
+    },
+    {
+      "threshold": 0.71,
+      "answerable_wrongly_refused": 0,
+      "answerable_total": 27,
+      "unanswerable_wrongly_passed": 8,
+      "unanswerable_total": 9
+    },
+    {
+      "threshold": 0.72,
+      "answerable_wrongly_refused": 0,
+      "answerable_total": 27,
+      "unanswerable_wrongly_passed": 8,
+      "unanswerable_total": 9
+    },
+    {
+      "threshold": 0.73,
+      "answerable_wrongly_refused": 0,
+      "answerable_total": 27,
+      "unanswerable_wrongly_passed": 7,
+      "unanswerable_total": 9
+    },
+    {
+      "threshold": 0.74,
+      "answerable_wrongly_refused": 0,
+      "answerable_total": 27,
+      "unanswerable_wrongly_passed": 7,
+      "unanswerable_total": 9
+    },
+    {
+      "threshold": 0.75,
+      "answerable_wrongly_refused": 0,
+      "answerable_total": 27,
+      "unanswerable_wrongly_passed": 7,
+      "unanswerable_total": 9
+    },
+    {
+      "threshold": 0.76,
+      "answerable_wrongly_refused": 0,
+      "answerable_total": 27,
+      "unanswerable_wrongly_passed": 7,
+      "unanswerable_total": 9
+    },
+    {
+      "threshold": 0.77,
+      "answerable_wrongly_refused": 0,
+      "answerable_total": 27,
+      "unanswerable_wrongly_passed": 5,
+      "unanswerable_total": 9
+    },
+    {
+      "threshold": 0.78,
+      "answerable_wrongly_refused": 0,
+      "answerable_total": 27,
+      "unanswerable_wrongly_passed": 5,
+      "unanswerable_total": 9
+    },
+    {
+      "threshold": 0.79,
+      "answerable_wrongly_refused": 1,
+      "answerable_total": 27,
+      "unanswerable_wrongly_passed": 5,
+      "unanswerable_total": 9
+    },
+    {
+      "threshold": 0.8,
+      "answerable_wrongly_refused": 1,
+      "answerable_total": 27,
+      "unanswerable_wrongly_passed": 4,
+      "unanswerable_total": 9
+    },
+    {
+      "threshold": 0.81,
+      "answerable_wrongly_refused": 1,
+      "answerable_total": 27,
+      "unanswerable_wrongly_passed": 4,
+      "unanswerable_total": 9
+    },
+    {
+      "threshold": 0.82,
+      "answerable_wrongly_refused": 5,
+      "answerable_total": 27,
+      "unanswerable_wrongly_passed": 2,
+      "unanswerable_total": 9
+    },
+    {
+      "threshold": 0.83,
+      "answerable_wrongly_refused": 11,
+      "answerable_total": 27,
+      "unanswerable_wrongly_passed": 2,
+      "unanswerable_total": 9
+    },
+    {
+      "threshold": 0.84,
+      "answerable_wrongly_refused": 13,
+      "answerable_total": 27,
+      "unanswerable_wrongly_passed": 2,
+      "unanswerable_total": 9
+    },
+    {
+      "threshold": 0.85,
+      "answerable_wrongly_refused": 14,
+      "answerable_total": 27,
+      "unanswerable_wrongly_passed": 2,
+      "unanswerable_total": 9
+    },
+    {
+      "threshold": 0.86,
+      "answerable_wrongly_refused": 15,
+      "answerable_total": 27,
+      "unanswerable_wrongly_passed": 1,
+      "unanswerable_total": 9
+    },
+    {
+      "threshold": 0.87,
+      "answerable_wrongly_refused": 17,
+      "answerable_total": 27,
+      "unanswerable_wrongly_passed": 1,
+      "unanswerable_total": 9
+    },
+    {
+      "threshold": 0.88,
+      "answerable_wrongly_refused": 19,
+      "answerable_total": 27,
+      "unanswerable_wrongly_passed": 1,
+      "unanswerable_total": 9
+    },
+    {
+      "threshold": 0.89,
+      "answerable_wrongly_refused": 20,
+      "answerable_total": 27,
+      "unanswerable_wrongly_passed": 1,
+      "unanswerable_total": 9
+    },
+    {
+      "threshold": 0.9,
+      "answerable_wrongly_refused": 26,
+      "answerable_total": 27,
+      "unanswerable_wrongly_passed": 0,
+      "unanswerable_total": 9
+    }
+  ],
+  "rows": [
+    {
+      "id": "g01",
+      "language": "en",
+      "category": "answerable",
+      "question": "What is the cancellation policy for Hotel Sunrise Goa?",
+      "expected_sources": [
+        "hotel_sunrise_goa_policy.txt"
+      ],
+      "top_score": 0.8900688290596008,
+      "ranked_sources": [
+        "hotel_sunrise_goa_policy.txt",
+        "hotel_palm_beach_goa_policy.txt",
+        "goa_destination_guide.txt",
+        "booking_terms_and_refunds.txt",
+        "flight_cancellation_policy.txt"
+      ],
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "g02",
+      "language": "en",
+      "category": "answerable",
+      "question": "How much refund do I get at Hotel Palm Beach Goa if I cancel 3 days before check-in?",
+      "expected_sources": [
+        "hotel_palm_beach_goa_policy.txt"
+      ],
+      "top_score": 0.9035884141921997,
+      "ranked_sources": [
+        "hotel_palm_beach_goa_policy.txt",
+        "hotel_sunrise_goa_policy.txt",
+        "booking_terms_and_refunds.txt",
+        "flight_cancellation_policy.txt"
+      ],
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "g03",
+      "language": "en",
+      "category": "answerable",
+      "question": "What time is check-in at Hotel Sunrise Goa?",
+      "expected_sources": [
+        "hotel_sunrise_goa_policy.txt"
+      ],
+      "top_score": 0.8950375318527222,
+      "ranked_sources": [
+        "hotel_sunrise_goa_policy.txt",
+        "hotel_palm_beach_goa_policy.txt",
+        "goa_destination_guide.txt",
+        "booking_terms_and_refunds.txt"
+      ],
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "g04",
+      "language": "en",
+      "category": "answerable",
+      "question": "Are pets allowed at Hotel Palm Beach Goa?",
+      "expected_sources": [
+        "hotel_palm_beach_goa_policy.txt"
+      ],
+      "top_score": 0.8723143935203552,
+      "ranked_sources": [
+        "hotel_palm_beach_goa_policy.txt",
+        "goa_destination_guide.txt",
+        "hotel_sunrise_goa_policy.txt"
+      ],
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "g05",
+      "language": "en",
+      "category": "answerable",
+      "question": "How much does breakfast cost at Hotel Palm Beach Goa?",
+      "expected_sources": [
+        "hotel_palm_beach_goa_policy.txt"
+      ],
+      "top_score": 0.8794699907302856,
+      "ranked_sources": [
+        "hotel_palm_beach_goa_policy.txt",
+        "hotel_sunrise_goa_policy.txt",
+        "goa_destination_guide.txt"
+      ],
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "g06",
+      "language": "en",
+      "category": "answerable",
+      "question": "What is the flight cancellation fee if I cancel within 24 hours of departure?",
+      "expected_sources": [
+        "flight_cancellation_policy.txt"
+      ],
+      "top_score": 0.8886608481407166,
+      "ranked_sources": [
+        "flight_cancellation_policy.txt",
+        "booking_terms_and_refunds.txt",
+        "hotel_palm_beach_goa_policy.txt",
+        "hotel_sunrise_goa_policy.txt"
+      ],
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "g07",
+      "language": "en",
+      "category": "answerable",
+      "question": "How much checked baggage is allowed on a domestic economy fare?",
+      "expected_sources": [
+        "flight_cancellation_policy.txt"
+      ],
+      "top_score": 0.8907181024551392,
+      "ranked_sources": [
+        "flight_cancellation_policy.txt",
+        "booking_terms_and_refunds.txt",
+        "hotel_palm_beach_goa_policy.txt",
+        "goa_destination_guide.txt"
+      ],
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "g08",
+      "language": "en",
+      "category": "answerable",
+      "question": "When is the best time to visit Goa?",
+      "expected_sources": [
+        "goa_destination_guide.txt"
+      ],
+      "top_score": 0.8647208213806152,
+      "ranked_sources": [
+        "goa_destination_guide.txt",
+        "hotel_palm_beach_goa_policy.txt",
+        "hotel_sunrise_goa_policy.txt"
+      ],
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "g09",
+      "language": "en",
+      "category": "answerable",
+      "question": "Which beaches in South Goa are good for families?",
+      "expected_sources": [
+        "goa_destination_guide.txt"
+      ],
+      "top_score": 0.8667533993721008,
+      "ranked_sources": [
+        "goa_destination_guide.txt",
+        "hotel_palm_beach_goa_policy.txt",
+        "hotel_sunrise_goa_policy.txt"
+      ],
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "g10",
+      "language": "en",
+      "category": "answerable",
+      "question": "If a hotel policy and the platform terms differ, which one applies?",
+      "expected_sources": [
+        "booking_terms_and_refunds.txt"
+      ],
+      "top_score": 0.8142180442810059,
+      "ranked_sources": [
+        "booking_terms_and_refunds.txt",
+        "hotel_sunrise_goa_policy.txt",
+        "hotel_palm_beach_goa_policy.txt",
+        "goa_destination_guide.txt"
+      ],
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "g11",
+      "language": "en",
+      "category": "answerable",
+      "question": "How many working days does it take to get a refund for an approved cancellation of a booking?",
+      "expected_sources": [
+        "booking_terms_and_refunds.txt"
+      ],
+      "top_score": 0.8959313631057739,
+      "ranked_sources": [
+        "booking_terms_and_refunds.txt",
+        "flight_cancellation_policy.txt",
+        "hotel_palm_beach_goa_policy.txt",
+        "hotel_sunrise_goa_policy.txt"
+      ],
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "g12",
+      "language": "en",
+      "category": "answerable",
+      "question": "Can I cancel a booking that belongs to another person?",
+      "expected_sources": [
+        "booking_terms_and_refunds.txt"
+      ],
+      "top_score": 0.8291037082672119,
+      "ranked_sources": [
+        "booking_terms_and_refunds.txt",
+        "flight_cancellation_policy.txt",
+        "hotel_palm_beach_goa_policy.txt",
+        "goa_destination_guide.txt",
+        "hotel_sunrise_goa_policy.txt"
+      ],
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "g13",
+      "language": "en",
+      "category": "answerable",
+      "question": "What is the price of a Sea View Room at Hotel Sunrise Goa?",
+      "expected_sources": [
+        "hotel_sunrise_goa_policy.txt"
+      ],
+      "top_score": 0.8967262506484985,
+      "ranked_sources": [
+        "hotel_sunrise_goa_policy.txt",
+        "hotel_palm_beach_goa_policy.txt",
+        "goa_destination_guide.txt",
+        "flight_cancellation_policy.txt"
+      ],
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "g14",
+      "language": "en",
+      "category": "answerable",
+      "question": "What happens if I miss my flight without cancelling?",
+      "expected_sources": [
+        "flight_cancellation_policy.txt"
+      ],
+      "top_score": 0.8521047830581665,
+      "ranked_sources": [
+        "flight_cancellation_policy.txt",
+        "booking_terms_and_refunds.txt",
+        "goa_destination_guide.txt",
+        "hotel_palm_beach_goa_policy.txt"
+      ],
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "g15",
+      "language": "en",
+      "category": "answerable",
+      "question": "Is breakfast included in the room rate at Hotel Sunrise Goa?",
+      "expected_sources": [
+        "hotel_sunrise_goa_policy.txt"
+      ],
+      "top_score": 0.8947453498840332,
+      "ranked_sources": [
+        "hotel_sunrise_goa_policy.txt",
+        "hotel_palm_beach_goa_policy.txt",
+        "goa_destination_guide.txt",
+        "booking_terms_and_refunds.txt"
+      ],
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "g16",
+      "language": "hi",
+      "category": "answerable",
+      "question": "होटल सनराइज गोवा की रद्द करने की नीति क्या है?",
+      "expected_sources": [
+        "hotel_sunrise_goa_policy.txt"
+      ],
+      "top_score": 0.8127830028533936,
+      "ranked_sources": [
+        "hotel_sunrise_goa_policy.txt",
+        "hotel_palm_beach_goa_policy.txt",
+        "booking_terms_and_refunds.txt",
+        "goa_destination_guide.txt",
+        "flight_cancellation_policy.txt"
+      ],
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "g17",
+      "language": "hi",
+      "category": "answerable",
+      "question": "गोवा घूमने का सबसे अच्छा समय कौन सा है?",
+      "expected_sources": [
+        "goa_destination_guide.txt"
+      ],
+      "top_score": 0.829674243927002,
+      "ranked_sources": [
+        "goa_destination_guide.txt",
+        "hotel_palm_beach_goa_policy.txt",
+        "hotel_sunrise_goa_policy.txt",
+        "flight_cancellation_policy.txt"
+      ],
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "g18",
+      "language": "hi",
+      "category": "answerable",
+      "question": "फ्लाइट रद्द करने पर कितना शुल्क लगता है?",
+      "expected_sources": [
+        "flight_cancellation_policy.txt"
+      ],
+      "top_score": 0.8393669128417969,
+      "ranked_sources": [
+        "flight_cancellation_policy.txt",
+        "booking_terms_and_refunds.txt",
+        "hotel_palm_beach_goa_policy.txt",
+        "hotel_sunrise_goa_policy.txt"
+      ],
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "g19",
+      "language": "hi",
+      "category": "answerable",
+      "question": "क्या होटल पाम बीच गोवा में पालतू जानवरों की अनुमति है?",
+      "expected_sources": [
+        "hotel_palm_beach_goa_policy.txt"
+      ],
+      "top_score": 0.8241994976997375,
+      "ranked_sources": [
+        "hotel_palm_beach_goa_policy.txt",
+        "goa_destination_guide.txt",
+        "hotel_sunrise_goa_policy.txt"
+      ],
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "g20",
+      "language": "hi",
+      "category": "answerable",
+      "question": "क्या मैं किसी और की बुकिंग रद्द कर सकता हूँ?",
+      "expected_sources": [
+        "booking_terms_and_refunds.txt"
+      ],
+      "top_score": 0.8130906820297241,
+      "ranked_sources": [
+        "booking_terms_and_refunds.txt",
+        "flight_cancellation_policy.txt",
+        "hotel_palm_beach_goa_policy.txt",
+        "goa_destination_guide.txt"
+      ],
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "g21",
+      "language": "hi",
+      "category": "answerable",
+      "question": "होटल सनराइज गोवा में चेक-इन का समय क्या है?",
+      "expected_sources": [
+        "hotel_sunrise_goa_policy.txt"
+      ],
+      "top_score": 0.8438593745231628,
+      "ranked_sources": [
+        "hotel_palm_beach_goa_policy.txt",
+        "hotel_sunrise_goa_policy.txt",
+        "goa_destination_guide.txt",
+        "booking_terms_and_refunds.txt"
+      ],
+      "hit_at_1": false,
+      "hit_at_3": true,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "id": "g22",
+      "language": "te",
+      "category": "answerable",
+      "question": "హోటల్ సన్రైజ్ గోవా రద్దు విధానం ఏమిటి?",
+      "expected_sources": [
+        "hotel_sunrise_goa_policy.txt"
+      ],
+      "top_score": 0.8231161832809448,
+      "ranked_sources": [
+        "hotel_sunrise_goa_policy.txt",
+        "hotel_palm_beach_goa_policy.txt",
+        "goa_destination_guide.txt",
+        "flight_cancellation_policy.txt"
+      ],
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "g23",
+      "language": "te",
+      "category": "answerable",
+      "question": "గోవా సందర్శించడానికి ఉత్తమ సమయం ఏది?",
+      "expected_sources": [
+        "goa_destination_guide.txt"
+      ],
+      "top_score": 0.8204529285430908,
+      "ranked_sources": [
+        "goa_destination_guide.txt",
+        "hotel_palm_beach_goa_policy.txt",
+        "hotel_sunrise_goa_policy.txt",
+        "flight_cancellation_policy.txt"
+      ],
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "g24",
+      "language": "te",
+      "category": "answerable",
+      "question": "విమాన టికెట్ రద్దు చేస్తే ఎంత ఛార్జీ వసూలు చేస్తారు?",
+      "expected_sources": [
+        "flight_cancellation_policy.txt"
+      ],
+      "top_score": 0.8385569453239441,
+      "ranked_sources": [
+        "flight_cancellation_policy.txt",
+        "booking_terms_and_refunds.txt",
+        "hotel_sunrise_goa_policy.txt",
+        "hotel_palm_beach_goa_policy.txt"
+      ],
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "g25",
+      "language": "te",
+      "category": "answerable",
+      "question": "హోటల్ పామ్ బీచ్ గోవాలో పెంపుడు జంతువులను అనుమతిస్తారా?",
+      "expected_sources": [
+        "hotel_palm_beach_goa_policy.txt"
+      ],
+      "top_score": 0.8214818835258484,
+      "ranked_sources": [
+        "hotel_palm_beach_goa_policy.txt",
+        "goa_destination_guide.txt",
+        "hotel_sunrise_goa_policy.txt"
+      ],
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "g26",
+      "language": "te",
+      "category": "answerable",
+      "question": "దక్షిణ గోవాలో కుటుంబాలకు తగిన బీచ్ ఏది?",
+      "expected_sources": [
+        "goa_destination_guide.txt"
+      ],
+      "top_score": 0.8114627599716187,
+      "ranked_sources": [
+        "goa_destination_guide.txt",
+        "hotel_sunrise_goa_policy.txt",
+        "hotel_palm_beach_goa_policy.txt"
+      ],
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "g27",
+      "language": "te",
+      "category": "answerable",
+      "question": "ఇతరుల బుకింగ్ రద్దు చేయడానికి నాకు అనుమతి ఉందా?",
+      "expected_sources": [
+        "booking_terms_and_refunds.txt"
+      ],
+      "top_score": 0.7834380865097046,
+      "ranked_sources": [
+        "booking_terms_and_refunds.txt",
+        "flight_cancellation_policy.txt",
+        "goa_destination_guide.txt",
+        "hotel_palm_beach_goa_policy.txt"
+      ],
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "g28",
+      "language": "en",
+      "category": "unanswerable",
+      "question": "What is the capital of France?",
+      "expected_sources": [],
+      "top_score": 0.7296959161758423,
+      "ranked_sources": [
+        "goa_destination_guide.txt",
+        "booking_terms_and_refunds.txt",
+        "hotel_sunrise_goa_policy.txt",
+        "flight_cancellation_policy.txt"
+      ],
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "id": "g29",
+      "language": "en",
+      "category": "unanswerable",
+      "question": "How do I bake a chocolate cake?",
+      "expected_sources": [],
+      "top_score": 0.7680215835571289,
+      "ranked_sources": [
+        "goa_destination_guide.txt",
+        "flight_cancellation_policy.txt",
+        "booking_terms_and_refunds.txt",
+        "hotel_sunrise_goa_policy.txt"
+      ],
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "id": "g30",
+      "language": "en",
+      "category": "unanswerable",
+      "question": "What is the cancellation policy for Hotel Taj Paris?",
+      "expected_sources": [],
+      "top_score": 0.8175598978996277,
+      "ranked_sources": [
+        "hotel_palm_beach_goa_policy.txt",
+        "booking_terms_and_refunds.txt",
+        "hotel_sunrise_goa_policy.txt",
+        "flight_cancellation_policy.txt",
+        "goa_destination_guide.txt"
+      ],
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "id": "g31",
+      "language": "en",
+      "category": "unanswerable",
+      "question": "Does Hotel Sunrise Goa have a swimming pool?",
+      "expected_sources": [],
+      "top_score": 0.8510454893112183,
+      "ranked_sources": [
+        "hotel_sunrise_goa_policy.txt",
+        "hotel_palm_beach_goa_policy.txt",
+        "goa_destination_guide.txt",
+        "booking_terms_and_refunds.txt"
+      ],
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "id": "g32",
+      "language": "en",
+      "category": "unanswerable",
+      "question": "What is the cancellation fee for SkyIndia international flights?",
+      "expected_sources": [],
+      "top_score": 0.8995295166969299,
+      "ranked_sources": [
+        "flight_cancellation_policy.txt",
+        "hotel_sunrise_goa_policy.txt",
+        "booking_terms_and_refunds.txt",
+        "hotel_palm_beach_goa_policy.txt"
+      ],
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "id": "g33",
+      "language": "en",
+      "category": "unanswerable",
+      "question": "What is the best time to visit Manali?",
+      "expected_sources": [],
+      "top_score": 0.8128759860992432,
+      "ranked_sources": [
+        "goa_destination_guide.txt",
+        "hotel_palm_beach_goa_policy.txt",
+        "flight_cancellation_policy.txt",
+        "hotel_sunrise_goa_policy.txt"
+      ],
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "id": "g34",
+      "language": "hi",
+      "category": "unanswerable",
+      "question": "फ्रांस की राजधानी क्या है?",
+      "expected_sources": [],
+      "top_score": 0.6848189234733582,
+      "ranked_sources": [
+        "goa_destination_guide.txt",
+        "flight_cancellation_policy.txt",
+        "booking_terms_and_refunds.txt"
+      ],
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "id": "g35",
+      "language": "te",
+      "category": "unanswerable",
+      "question": "చాక్లెట్ కేక్ ఎలా తయారు చేయాలి?",
+      "expected_sources": [],
+      "top_score": 0.7632002234458923,
+      "ranked_sources": [
+        "booking_terms_and_refunds.txt",
+        "flight_cancellation_policy.txt",
+        "goa_destination_guide.txt",
+        "hotel_sunrise_goa_policy.txt"
+      ],
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "id": "g36",
+      "language": "te",
+      "category": "unanswerable",
+      "question": "హోటల్ తాజ్ పారిస్ రద్దు విధానం ఏమిటి?",
+      "expected_sources": [],
+      "top_score": 0.7964608073234558,
+      "ranked_sources": [
+        "hotel_palm_beach_goa_policy.txt",
+        "booking_terms_and_refunds.txt",
+        "hotel_sunrise_goa_policy.txt",
+        "flight_cancellation_policy.txt",
+        "goa_destination_guide.txt"
+      ],
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "reciprocal_rank": 0.0
+    }
+  ]
+}
